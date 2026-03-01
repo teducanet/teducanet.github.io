@@ -1,0 +1,4 @@
+[10-Feb-2019 16:46:31 UTC] PHP Notice:  Undefined variable: email_from in /home/cpi57pu5fnne/public_html/teduca.net.pe/sendbymail.php on line 30
+[10-Feb-2019 16:46:31 UTC] PHP Notice:  Undefined variable: email_from in /home/cpi57pu5fnne/public_html/teduca.net.pe/sendbymail.php on line 31
+[30-Jun-2019 23:18:34 UTC] PHP Notice:  Undefined variable: email_from in /home/cpi57pu5fnne/public_html/teduca.net.pe/sendbymail.php on line 30
+[30-Jun-2019 23:18:34 UTC] PHP Notice:  Undefined variable: email_from in /home/cpi57pu5fnne/public_html/teduca.net.pe/sendbymail.php on line 31
