@@ -71,34 +71,28 @@
 		</header>
 		<!-- /Header -->
 
+		<!-- Home -->
+		<div id="home" class="hero-area">
 
-<section class="hero" id="hero">
-  <div class="slides" id="slides">
-    <div class="slide"><img src="assets/hero-1.jpg" alt="Campus"><div class="overlay"></div><div class="content"><span class="kicker">Bienvenido</span><h1>Educación que transforma vidas</h1><p class="sub">Más de 35 años formando líderes con visión, ética y excelencia académica.</p><div class="btns"><a class="btn btn-primary" href="cursos.html">Explorar carreras →</a><a class="btn btn-ghost" href="contacto.html">Solicitar información</a></div></div></div>
-    <div class="slide"><img src="assets/hero-2.jpg" alt="Biblioteca"><div class="overlay"></div><div class="content"><span class="kicker">Aprendizaje</span><h1>Aulas y bibliotecas de primer nivel</h1><p class="sub">Espacios diseñados para la colaboración, la investigación y el pensamiento crítico.</p><div class="btns"><a class="btn btn-primary" href="cursos.html">Explorar carreras →</a></div></div></div>
-    <div class="slide"><img src="assets/hero-3.jpg" alt="Laboratorio"><div class="overlay"></div><div class="content"><span class="kicker">Investigación</span><h1>Laboratorios que inspiran ciencia</h1><p class="sub">Tecnología de punta al servicio de tu curiosidad y tu carrera.</p><div class="btns"><a class="btn btn-primary" href="cursos.html">Explorar carreras →</a></div></div></div>
-    <div class="slide"><img src="assets/hero-4.jpg" alt="Graduación"><div class="overlay"></div><div class="content"><span class="kicker">Futuro</span><h1>Graduados que cambian el mundo</h1><p class="sub">Únete a una comunidad global de más de 20.000 egresados.</p><div class="btns"><a class="btn btn-primary" href="contacto.html">Comenzar →</a></div></div></div>
-  </div>
-  <button class="arrow prev" onclick="go(-1)">‹</button>
-  <button class="arrow next" onclick="go(1)">›</button>
-  <div class="dots" id="dots"></div>
-</section>
+			<!-- Backgound Image -->
+			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/home-background9.jpg)"></div>
+			<!-- /Backgound Image -->
 
-<script>
-const slides=document.getElementById('slides');
-const total=slides.children.length;
-let idx=0;
-const dotsEl=document.getElementById('dots');
-for(let i=0;i<total;i++){const b=document.createElement('button');b.className='dot'+(i===0?' active':'');b.onclick=()=>set(i);dotsEl.appendChild(b);}
-function set(i){idx=(i+total)%total;slides.style.transform='translateX(-'+(idx*100)+'%)';[...dotsEl.children].forEach((d,j)=>d.classList.toggle('active',j===idx));}
-function go(d){set(idx+d);}
-setInterval(()=>go(1),5500);
-</script>
+			<div class="home-wrapper">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8">
+							
+							<h1 class="white-text">Escuela de Formación en Informática</h1>
+							<p class="lead white-text">Actualizate con los mejores</p>
+							<a class="main-button icon-button" href="http://www.teduca.net.pe">Empezar!</a>
+						</div>
+					</div>
+				</div>
+			</div>
 
-
-
-
-		
+		</div>
+		<!-- /Home -->
 
 		<!-- About -->
 		<div id="about" class="section">
